@@ -1,0 +1,36 @@
+h1 {
+    font-size: 4opx;
+    font-family: 'Verdana';
+    font-weight: 300;
+    text-align:right;
+    color: 000000;
+    padding-right: 25%;
+    margin-top: 10%;
+}
+html {
+    background-color: #F4F3EB;
+  }
+  img{
+    display:block;
+    margin: -3%;
+  }
+ .box
+  {
+    position:relative;
+    left:37%;
+    width:420px;
+    height:170px;
+    border-radius: 10px;
+    background-color: #DCC9A8
+  }
+  .btn
+  {
+    position:relative;
+    left:47%;
+    top:59%;
+    border-radius: 10px;
+    width:80px;
+    height:30px;
+    background-color: #958D82
+   
+  }
