@@ -1,17 +1,25 @@
 import cipher from './cipher.js';
 
-
-function funcao1() {
-    const "box-cifrar"
-result 
+function fnCifrar () {
+    let texto =  document.getElementById(" boxCifrar").value ;
+    console.log("texto");
+    let deslocar = document.getElementById(" deslocamento").value;
+    let cifra = cipher.encode(texto, deslocar);
+    document.getElementById("boxCifrar").value = cifra;
 }
 
-let texto =" ";
-function deslocarTexto(){
-    texto="";
-}
+    document.getElementbyId(btnSubmit).addEventListener("click", fnCifrar);
 
-document.getElementById("btnSubmit").onclick = function funcao1() {
+
+
+
+
 
  
-console.log(codigoDaletra + deslocamento) % + tamDoAlfabeto;
+// console.log(codigoDaletra + deslocamento) % + tamDoAlfabeto;
+// document.getElementById("btnSubmit").onclick = function funcao1() ;
+// document.getElementbyId(btnSubmit).addEventListener("click", fnCifrar);
+
+//function myFunction() {
+  //  document.getElementById("demo").innerHTML = "Hello World";
+ // }

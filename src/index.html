@@ -11,53 +11,38 @@
       <div id="root">
         <h1>MEU SEGREDO</h1>
         <div> 
-          <img src= "LogoConfidencial.png"  alt="logo-segredo"/>
+          <img src= "LogoConfidencial.png"  alt="segredo"/>
+         <img class="image.logo">
         </div>
+
     </header>
      <main>
     <div>
 <form>
-    <input 
-    type="text";
-    id="boxCifrar" ;
-    placeholder="Digite aqui o seu segredo"; 
-    name="textoCifrar";
-    class="box";
-    required>
-    <div>
-      <button
-      class="btn";
-      onclick="funcao1()";
-      type="button";
-      id="btnsubmitcifrar";
-      value="submit";
-      name="botão";
-    >
-      <button
-      class="btn"
-      onclick="funcao2()"
-      type="button";
-      id="btnsubmitdecifrar";
-      value="submit"; 
-      name="botão";
-      >
-      </div>
-    <input 
-    type="text"
-    id="box-decifrar" 
-    placeholder="" 
-    name="texto-cifrado" 
-    class="box"
-    required>
+    <input class="box1" type="text"id="boxCifrar" placeholder="Digite aqui o seu segredo">
+
+    <input class="btn1" type="button" id="btnSubmit" value="cifrar" >
+     
+    <input class="btn2" type="button" id="btnsubmit2" value="decifrar">
+      
+    <input class="box2" type="text" id="boxDecifrar">
+    
+    <input class="box3" type="number" id="deslocamento">
+
+    <p class="insira">insira o nº de deslocamento</p>
+    
   </div>
   </form>
-  <p>
+  <p class="descrição">
     Aqui você pode cifrar e decifrar seus segredos
-    <br> Sejam eles suas senhas, suas descobertas ou seus sonhos mais  intímos.
+    <br> Sejam eles suas senhas, suas descobertas ou seus pensamentos  mais intímos.
   </br>
   </p>
+
 </div>
 </main>
     <script src="index.js" type="module"></script>
+
   </body>
+
 </html>

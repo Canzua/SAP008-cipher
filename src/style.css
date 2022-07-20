@@ -1,36 +1,88 @@
-h1 {
-    font-size: 4opx;
-    font-family: 'Verdana';
-    font-weight: 300;
-    text-align:right;
-    color: 000000;
-    padding-right: 25%;
-    margin-top: 10%;
+h1 
+{
+   position: absolute;
+   top: 20px;
+   left: 680px;
+   font-size: 4opx;
+   font-family: 'Verdana';
+   font-weight: 300;
+   color: 000000;
 }
-html {
+html 
+{
     background-color: #F4F3EB;
   }
   img{
-    display:block;
-    margin: -3%;
+    position: absolute;
+    left: 50px;
+    top: 100px;
   }
- .box
+ .box1
   {
-    position:relative;
-    left:37%;
+    position: absolute;
+    top: 200px;
+    left: 550px;
     width:420px;
-    height:170px;
+    height:120px;
     border-radius: 10px;
-    background-color: #DCC9A8
+    background-color: #EEE1CB;
   }
-  .btn
+  .box2
   {
-    position:relative;
-    left:47%;
-    top:59%;
+    position: absolute;
+    top: 380px;
+    left: 550px;
+    width:420px;
+    height:120px;
     border-radius: 10px;
-    width:80px;
+    background-color: #EEE1CB;
+  }
+  .box3
+  {
+    position: absolute;
+    top: 545px;
+    left: 740px;
+    width:60px;
     height:30px;
-    background-color: #958D82
-   
+    border-radius: 10px;
+    background-color: #D9D9D9
+  }
+  .insira
+  {
+    position:absolute;
+    top: 500px;
+    left: 660px;
+    font-family: 'Verdana';
+    font-size: 15px;
+  }
+  .btn1
+  {
+    position:absolute;
+    top: 335px;
+    left: 620px;
+    right: 100px;
+    border-radius: 10px;
+    width:90px;
+    height:35px;
+    background-color: #B4A38C 
+  }
+ .btn2
+  {
+    position:absolute;
+    top: 335px;
+    left: 800px;
+    right: 100px;
+    border-radius: 10px;
+    width:90px;
+    height:35px;
+    background-color: #B4A38C 
+  }
+  .descrição{
+    position:absolute;
+    top: 90px;
+    left: 160px;
+    right: 100px;
+    font-family: 'Verdana';
+    font-weight: 300;
+    color: 000000;
   }
