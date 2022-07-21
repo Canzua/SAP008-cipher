@@ -1,12 +1,12 @@
-const cipher = { encode}
+const cipher =  [encode]
 
-function encode(texto, deslocar){
+function encode(mensagem, deslocar){
 let mensagem = "";
 for (let i = 0; i < texto.length; i++){ 
   let cifrar = ((texto.charCodeAt(i) + 65 + deslocar) % 26 ) + 65;
-  mensagem += String.fromCharCode(cifrar);
+  mensagem += String.fromCharCodeAt(cifrar);
 }
-console.log("mensagem");
+console.log("mensagem", i);
 return mensagem;
 }
 

@@ -2,7 +2,7 @@ h1
 {
    position: absolute;
    top: 20px;
-   left: 680px;
+   left: 720px;
    font-size: 4opx;
    font-family: 'Verdana';
    font-weight: 300;
@@ -14,14 +14,14 @@ html
   }
   img{
     position: absolute;
-    left: 50px;
+    left: 140px;
     top: 100px;
   }
  .box1
   {
     position: absolute;
     top: 200px;
-    left: 550px;
+    left: 610px;
     width:420px;
     height:120px;
     border-radius: 10px;
@@ -31,7 +31,7 @@ html
   {
     position: absolute;
     top: 380px;
-    left: 550px;
+    left: 610px;
     width:420px;
     height:120px;
     border-radius: 10px;
@@ -41,7 +41,7 @@ html
   {
     position: absolute;
     top: 545px;
-    left: 740px;
+    left: 795px;
     width:60px;
     height:30px;
     border-radius: 10px;
@@ -51,7 +51,7 @@ html
   {
     position:absolute;
     top: 500px;
-    left: 660px;
+    left: 720px;
     font-family: 'Verdana';
     font-size: 15px;
   }
@@ -59,7 +59,7 @@ html
   {
     position:absolute;
     top: 335px;
-    left: 620px;
+    left: 680px;
     right: 100px;
     border-radius: 10px;
     width:90px;
@@ -70,7 +70,7 @@ html
   {
     position:absolute;
     top: 335px;
-    left: 800px;
+    left: 860px;
     right: 100px;
     border-radius: 10px;
     width:90px;
@@ -80,7 +80,7 @@ html
   .descrição{
     position:absolute;
     top: 90px;
-    left: 160px;
+    left: 240px;
     right: 100px;
     font-family: 'Verdana';
     font-weight: 300;
