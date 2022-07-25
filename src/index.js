@@ -1,23 +1,23 @@
 import cipher from './cipher.js';
 
-function fnCifrar () {
-    let texto =  document.getElementById(" boxCifrar").value ;
-    console.log("mensagem");
-    let deslocar = document.getElementById(" deslocamento").value;
+function fnCifrar (event) {
+    event.preventDefault( );
+
+    let texto =  document.getElementById("boxCifrar").value;
+    let deslocar = document.getElementById("deslocamento").value;
+    console.log(deslocar);
     let cifra = cipher.encode(texto, deslocar);
-    document.getElementById("boxCifrar").value = cifra;
-}
+   document.getElementById("boxCifrar").value;
+   document.getElementById("boxReceber").value;
+   console.log(texto, deslocar);
+}   
 
-    document.getElementbyId(btnSubmit).addEventListener("click", fnCifrar);
-
-
-
-
+    document.getElementById("btnSubmit").addEventListener("click", fnCifrar);
 
 
+
+
+
+   //event.preventDefault(); sempre colocar para inabilitar a renicialização automatica da pagina.
  
-// console.log(codigoDaletra + deslocamento) % + tamDoAlfabeto;
-// document.getElementById("btnSubmit").onclick = function funcao1() ;
-// document.getElementbyId(btnSubmit).addEventListener("click", fnCifrar);
-//function myFunction() {
-  //  document.getElementById("demo").innerHTML = "Hello World";
+
