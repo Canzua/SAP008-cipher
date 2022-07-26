@@ -1,23 +1,27 @@
 import cipher from './cipher.js';
 
-function fnCifrar (event) {
-    event.preventDefault( );
+const texto = document.getElementById("boxCifrar");
+const deslocar = document.getElementById("deslocamento")
 
-    let texto =  document.getElementById("boxCifrar").value;
-    let deslocar = document.getElementById("deslocamento").value;
-    console.log(deslocar);
-    let cifra = cipher.encode(texto, deslocar);
-   document.getElementById("boxCifrar").value;
-   document.getElementById("boxReceber").value;
-   console.log(texto, deslocar);
-}   
+function fnCifrar(event) {
+   event.preventDefault();
+   const offset = deslocar.valueAsNumber;
+   const mensagem = texto.value.toUpperCase();
+   const cifra = cipher.encode(mensagem, offset);
+   document.getElementById("boxReceber").value = cifra;
+}
 
-    document.getElementById("btnSubmit").addEventListener("click", fnCifrar);
+function fnDecifrar(event) {
+   event.preventDefault();
+   const mensagem = texto.value.toUpperCase();
+   const offset = deslocar.valueAsNumber;
+   const decifra = cipher.decode(mensagem, offset);
+   document.getElementById("boxReceber").value = decifra;
+}
+
+document.getElementById("btnSubmit").addEventListener("click", fnCifrar);
+document.getElementById("btnSubmit2").addEventListener("click", fnDecifrar);
 
 
 
-
-
-   //event.preventDefault(); sempre colocar para inabilitar a renicialização automatica da pagina.
- 
 

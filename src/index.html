@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Meu Segredo</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header> 
-      <div id="root">
-        <h1>MEU SEGREDO</h1>
-        <div> 
-          <img src= "LogoConfidencial.png"  alt="segredo"/>
-         <img class="image.logo">
-        </div>
+<head>
+  <meta charset="utf-8">
+  <title>Meu Segredo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    </header>
-     <main>
+<body>
+  <header>
+    <div id="root">
+      <h1>MEU SEGREDO</h1>
+      <div>
+        <img src="LogoConfidencial.png" alt="segredo" />
+        <img class="image.logo">
+      </div>
+    </div>
+
+  </header>
+  <main>
     <div>
-<form>
-    <input class="box1" type="text" id="boxCifrar"  placeholder="Digite aqui o seu segredo">
+      <form>
+        <input class="box1" type="text" id="boxCifrar" placeholder="Digite aqui o seu segredo / somente letras">
+        <input class="btn1" type="button" id="btnSubmit" value="cifrar">
+        <input class="btn2" type="button" id="btnSubmit2" value="decifrar">
+        <input class="box2" type="text" id="boxReceber">
+        <input class="box3" type="number" id="deslocamento" value="" min="0" max="">
+        <p class="insira">insira o nº de deslocamento</p>
+      </form>
+    </div>
 
-    <input class="btn1" type="button" id="btnSubmit" value="cifrar / decifrar">
-      
-    <input class="box2" type="text" id="boxReceber">
+    <p class="descrição">
+      Aqui você pode cifrar e decifrar seus segredos
+      <br> Sejam suas criações, suas descobertas ou seus pensamentos mais intímos.
+    </p>
 
-    <input class="box3" type="number" id="deslocamento" value="" min="0" max="25">
-    
-    <p class="insira">insira o nº de deslocamento</p>
+  </main>
+  <script src="index.js" type="module"></script>
 
-  </div>
-  </form>
- 
-  <p class="descrição">
-    Aqui você pode cifrar e decifrar seus segredos
-    <br> Sejam eles suas senhas, suas descobertas ou seus pensamentos  mais intímos.
-  </p>
-
-</div>
-</main>
-    <script src="index.js" type="module"></script>
-
-  </body>
+</body>
 
 </html>

@@ -1,22 +1,22 @@
-const cipher = {encode}
+const cipher = { encode, decode }
 
-function encode(texto, deslocar){
-let mensagem = "";
+function encode(texto, deslocar) {
+  let mensagem = "";
+  for (let i = 0; i < texto.length; i++) {
+    console.log(texto[i].charCodeAt());
+    const cifrar = ((texto.charCodeAt(i) + deslocar) % 26) + 65;
+    mensagem += String.fromCharCode(cifrar);
 
-for (let i = 0; i < texto.length; i++){ 
-  let charCodeAt = "";
-  console.log(texto[i].charCodeAt());
-  let cifrar = ((texto.charCodeAt(i) +65 + deslocar)%26 ) + 65;
-  mensagem += String.fromCharCodeAt(cifrar += deslocar);
-  console.log("mensagem", i)
+  }
+
+  return mensagem;
+
 }
 
+function decode(texto, deslocar) {
+  const mensagem = encode(texto, - deslocar)
 
-return mensagem;
+  return mensagem;
+  
 }
-
-
-
 export default cipher;
-
-//console.log(codigoDaletra + deslocamento) % + tamDoAlfabeto;
