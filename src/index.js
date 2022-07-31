@@ -7,15 +7,15 @@ function fnCifrar(event) {
    event.preventDefault();
    const offset = deslocar.valueAsNumber;
    const mensagem = texto.value.toUpperCase();
-   const cifra = cipher.encode(mensagem, offset);
+   const cifra = cipher.encode(offset, mensagem);
    document.getElementById("boxReceber").value = cifra;
 }
 
 function fnDecifrar(event) {
    event.preventDefault();
-   const mensagem = texto.value.toUpperCase();
    const offset = deslocar.valueAsNumber;
-   const decifra = cipher.decode(mensagem, offset);
+   const mensagem = texto.value.toUpperCase();
+   const decifra = cipher.decode(offset, mensagem);
    document.getElementById("boxReceber").value = decifra;
 }
 

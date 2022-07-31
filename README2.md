@@ -5,9 +5,9 @@ Projeto Cipher
 
 1. Resumo do Projeto
 
-Desenvolver uma aplicação web, onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset).
+Objetivo: Desenvolver uma aplicação web, onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset).
 
-O tema escolhido foi - Meu Segredo - onde desenvolvi uma aplicação que permite ao usuário cifrar seus segredos intimos e guardar de forma segura.
+Tema: O tema escolhido foi - Meu Segredo - onde desenvolvi uma aplicação que permite ao usuário cifrar seus segredos intimos e guardar de forma segura.
 
         - Quem são os principais usuário do produto? 
 Qualquer pessoa que queira cifrar ou decifrar textos para maior segurança da informação

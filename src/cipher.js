@@ -1,22 +1,35 @@
-const cipher = { encode, decode }
+const cipher = {encode, decode}
 
-function encode(texto, deslocar) {
-  let mensagem = "";
-  for (let i = 0; i < texto.length; i++) {
-    console.log(texto[i].charCodeAt());
-    const cifrar = ((texto.charCodeAt(i) + deslocar) % 26) + 65;
-    mensagem += String.fromCharCode(cifrar);
+  function encode(deslocar, texto) {
 
+    if (typeof deslocar != "number") {
+     throw TypeError()
+    }
+
+    if (typeof texto != "string") {
+      throw TypeError()
+    }
+
+    let mensagem = "";
+    for (let i = 0; i < texto.length; i++) {
+      const cifrar = (texto.charCodeAt(i) -65 + deslocar) % 26 + 65;
+      mensagem += String.fromCharCode(cifrar);
+    }
+
+    return mensagem;
   }
 
-  return mensagem;
+function decode(deslocar, texto) {
+   if (typeof deslocar != "number") {
+      throw TypeError()
+    }
 
-}
+    if (typeof texto != "string") {
+      throw TypeError()
+    }
+    const mensagem = encode(-deslocar, texto)
 
-function decode(texto, deslocar) {
-  const mensagem = encode(texto, - deslocar)
+    return mensagem;
+  }
 
-  return mensagem;
-  
-}
 export default cipher;
