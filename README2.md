@@ -1,9 +1,10 @@
-Projeto Cipher
-(Cifra de César)
+#Projeto Cipher
+##(Cifra de César)
 
-<img src="PrototipoCipher">
+![Prototipo baixa fidelidade] (<img src="Prototipo baixa fidelidade">)
+![Prototipo alta fidelidade:] (<img src="PrototipoCipher">)
 
-1. Resumo do Projeto
+1. **Resumo do Projeto**
 
 Objetivo: Desenvolver uma aplicação web, onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset).
 
@@ -18,7 +19,7 @@ Cifrar segredos que considera importantes e não quer que sejam descobertos.
 - Como você acredita que o produto está resolvendo os problemas do usuário? 
 Criptografrando informações importantes para que sejam guardadas de forma segura.
 
-2. Considerações Técnicas
+2. **Considerações Técnicas**
 
     VS code (codificação)
     Figma (prototipo)
@@ -27,7 +28,7 @@ Criptografrando informações importantes para que sejam guardadas de forma segu
 
 Linguagens: JavaScript / HTML5 / CSS
 
-3. Processo do Desenvolvimento do Produto
+3. **Processo do Desenvolvimento do Produto**
 
     * Levantamento de problemas
     * Levantamento de informações e dados sobre o problema escolhido
@@ -37,8 +38,9 @@ Linguagens: JavaScript / HTML5 / CSS
     * Criação de Logo
     * Codificação
     * Teste de usabilidade
+    * Deploy - Git Pages
 
-4. Futuras Implantações
+4. **Futuras Implantações**
 
     * Reconhecer espaços
     * Aceitar números e caracteres especiais

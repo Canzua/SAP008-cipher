@@ -31,10 +31,5 @@ const deslocar = document.getElementById("deslocamento")
       }
    }
    
-
 document.getElementById("btnSubmit").addEventListener("click", fnCifrar);
 document.getElementById("btnSubmit2").addEventListener("click", fnDecifrar);
-
-
-
-
