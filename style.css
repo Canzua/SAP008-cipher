@@ -1,48 +1,69 @@
-h1 {
-  position: absolute;
-  top: 20px;
-  left: 720px;
-  font-size: 4opx;
-  font-family: 'Verdana';
-  font-weight: 300;
-  color: 000000;
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 html {
   background-color: #F4F3EB;
 }
+header{
+  margin-left: 5%;
+}
 
-img {
-  position: absolute;
-  left: 140px;
-  top: 100px;
+h1 {
+  display:flex;
+  font-size: 40px;
+  font-family: 'Verdana';
+  font-weight: 300;  
+  margin-top: 50%;
+}
+
+.descrição {
+  display: flex;
+  font-family: 'Verdana';
+  font-weight: 300;
+  color: 000000;
+  margin-top: 5%;
+}
+
+.container-inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80hw;
+  width: 50wh;
+  margin-top: 100%;
+  margin-right: 25%;
 }
 
 .box1 {
-  position: absolute;
-  top: 200px;
-  left: 610px;
+  display: flex;
+  text-align: center;
   width: 420px;
   height: 120px;
   font-size: 15px;
   border-radius: 10px;
   background-color: #EEE1CB;
+  margin: 5%;
 }
 
 .box2 {
-  position: absolute;
-  top: 380px;
-  left: 610px;
   width: 420px;
   height: 120px;
   border-radius: 10px;
   background-color: #EEE1CB;
+  margin: 5%;
 }
 
 .box3 {
-  position: absolute;
-  top: 545px;
-  left: 795px;
   width: 60px;
   height: 30px;
   border-radius: 10px;
@@ -50,45 +71,30 @@ img {
 }
 
 .insira {
-  position: absolute;
-  top: 500px;
-  left: 720px;
   font-family: 'Verdana';
   font-size: 15px;
+  margin: 2%;
 }
 
 .btn1 {
-  position: absolute;
   color: white;
-  top: 335px;
-  left: 670px;
-  right: 100px;
+  font-weight: bold;
+  letter-spacing:0.3ch;
   font-size: 15px;
   border-radius: 10px;
   width: 110px;
   height: 35px;
-  background-color: #B4A38C
+  background-color: #B4A38C;
+  margin-bottom: 2%;
 }
 
 .btn2 {
-  position: absolute;
   color: white;
-  top: 335px;
-  left: 850px;
-  right: 100px;
+  font-weight: bold;
+  letter-spacing:0.3ch;
   font-size: 15px;
   border-radius: 10px;
   width: 110px;
   height: 35px;
-  background-color: #B4A38C
-}
-
-.descrição {
-  position: absolute;
-  top: 90px;
-  left: 240px;
-  right: 100px;
-  font-family: 'Verdana';
-  font-weight: 300;
-  color: 000000;
+  background-color: #B4A38C;
 }
