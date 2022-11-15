@@ -2,11 +2,11 @@
 ##(Cifra de César)
 
 ![Prototipo baixa fidelidade](src/image/Proptotipo-baixa-fidelidade.jpg)
-![Prototipo alta fidelidade:](src/image/Prototipo-Cipher.png)
+![Prototipo alta fidelidade:](src/image/PrototipoCipher.png)
 
 1. **Resumo do Projeto**
 
-![](src/LogoConfidencial.png)
+![](src/image/logo.png)
 
 Objetivo: Desenvolver uma aplicação web, onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset).
 
