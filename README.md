@@ -55,3 +55,5 @@ Linguagens: JavaScript | HTML5 | CSS3
     * Aceitar números e caracteres especiais
     * Compartilhar o evento
     * Verificação de email
+    
+5. **Desenvolvido por ![Andrea dos Santos](https://www.linkedin.com/in/andr%C3%A9a-dos-santos-68189761/)
