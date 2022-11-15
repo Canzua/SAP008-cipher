@@ -1,45 +1,40 @@
 <!DOCTYPE html>
-  <html>
+<html>
 
-    <head>
-      <meta charset="utf-8">
-      <title>Meu Segredo</title>
-      <link rel="stylesheet" href="style.css" />
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <title>Meu Segredo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <body>
-      <header>
-        <div id="root">
-          <h1>MEU SEGREDO</h1>
-          <img src="LogoConfidencial.png" alt="segredo" />
-          <img class="image.logo">
+  <body>
+    <header>
+      <div id="root">
+        <h1>MEU SEGREDO</h1>
+        <img src="LogoConfidencial.png" alt="segredo"/>
+        <img class="image.logo"/>
+      </div>
+    </header>
+
+    <main>
+      <form class="container-inputs">
+        <div class="cifra">
+          <p class="descrição">
+            Aqui você pode cifrar e decifrar seus segredos
+            <br> Sejam suas criações, suas descobertas ou seus pensamentos mais intímos.
+          </p>
         </div>
-      </header>
+        <input class="box1" type="text" id="boxCifrar" placeholder="Digite aqui o seu segredo / utilize somente letras">
+        <button class="btn1" type="button" id="btnSubmit" value="cifrar">cifrar</button>
+        <button class="btn2" type="button" id="btnSubmit2" value="decifrar">decifrar</button>
+        <input class="box2" type="text" id="boxReceber"/>
+        <input class="box3" type="number" id="deslocamento" value=""/>
+        <p class="insira">insira o nº de deslocamento</p>
+      </form>
+    </main>
 
-      <main>
-       <div>
-          <form>
-            <input class="box1" type="text" id="boxCifrar" placeholder="Digite aqui o seu segredo / utilize somente letras">
-            <input class="box2" type="text" id="boxReceber">
-            <input class="box3" type="number" id="deslocamento" value="">
-            <p class="insira">insira o nº de deslocamento</p>
-          </form>
-        </div>
+    <script src="index.js" type="module"></script>
 
-        <div>
-          <button class="btn1" type="button" id="btnSubmit" value="cifrar">cifrar</button>
-           <button class="btn2" type="button" id="btnSubmit2" value="decifrar">decifrar</button>
-        </div>
+  </body>
 
-        <p class="descrição">
-          Aqui você pode cifrar e decifrar seus segredos
-          <br> Sejam suas criações, suas descobertas ou seus pensamentos mais intímos.
-        </p>
-
-      </main>
-
-      <script src="index.js" type="module"></script>
-
-    </body>
-
-  </html>
+</html>

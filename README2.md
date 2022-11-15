@@ -1,19 +1,21 @@
 #Projeto Cipher
 ##(Cifra de César)
 
-![Prototipo baixa fidelidade] (<img src="Prototipo baixa fidelidade">)
-![Prototipo alta fidelidade:] (<img src="PrototipoCipher">)
+![Prototipo baixa fidelidade](src/image/Proptotipo-baixa-fidelidade.jpg)
+![Prototipo alta fidelidade:](src/image/Prototipo-Cipher.png)
 
 1. **Resumo do Projeto**
+
+![](src/LogoConfidencial.png)
 
 Objetivo: Desenvolver uma aplicação web, onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset).
 
 Tema: O tema escolhido foi - Meu Segredo - onde desenvolvi uma aplicação que permite ao usuário cifrar seus segredos intimos e guardar de forma segura.
 
-        - Quem são os principais usuário do produto? 
+- Quem são os principais usuário do produto? 
 Qualquer pessoa que queira cifrar ou decifrar textos para maior segurança da informação
 
-    - Quais são os objetivos do usuário em relação com o produto? 
+- Quais são os objetivos do usuário em relação com o produto? 
 Cifrar segredos que considera importantes e não quer que sejam descobertos.
 
 - Como você acredita que o produto está resolvendo os problemas do usuário? 
@@ -23,18 +25,19 @@ Criptografrando informações importantes para que sejam guardadas de forma segu
 
     VS code (codificação)
     Figma (prototipo)
-    Trello (sprint planning)
+    Trello (Kanban | Planejamento)
     Canva (logo)
 
-Linguagens: JavaScript / HTML5 / CSS
+Linguagens: JavaScript | HTML5 | CSS3
 
 3. **Processo do Desenvolvimento do Produto**
 
+    * Escolha do tema
     * Levantamento de problemas
     * Levantamento de informações e dados sobre o problema escolhido
     * Planejamento
     * Definição de público alvo
-    * Protótipo do projeto 
+    * Protótipo do projeto (baixa e alta)
     * Criação de Logo
     * Codificação
     * Teste de usabilidade
