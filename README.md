@@ -56,4 +56,4 @@ Linguagens: JavaScript | HTML5 | CSS3
     * Compartilhar o evento
     * Verificação de email
     
-5. **Desenvolvido por [Andrea dos Santos](https://www.linkedin.com/in/andr%C3%A9a-dos-santos-68189761/)
+5. **Desenvolvido por** [Andrea dos Santos](https://www.linkedin.com/in/andr%C3%A9a-dos-santos-68189761/)
