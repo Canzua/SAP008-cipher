@@ -1,3 +1,11 @@
+Acesse o deploy [aqui!](https://canzua.github.io/SAP008-cipher/)
+
+##
+
+![](src/image/logo.png)
+
+##
+
 #Projeto Cipher
 ##(Cifra de César)
 
@@ -5,8 +13,6 @@
 ![Prototipo alta fidelidade:](src/image/PrototipoCipher.png)
 
 1. **Resumo do Projeto**
-
-![](src/image/logo.png)
 
 Objetivo: Desenvolver uma aplicação web, onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset).
 
